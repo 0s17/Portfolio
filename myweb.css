@@ -1,0 +1,394 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ff6600; /* Orange text color */
+    background: linear-gradient(135deg, #001f3f 25%, #00122b 75%); /* Dark navy blue wavy background */
+    padding: 0 20px; /* Margin on left and right */
+}
+
+/* Header */
+header {
+    background: #002b36; /* Darker navy blue for header */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px; /* Space between header and card */
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+    nav ul li {
+        margin: 0 1rem;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+/* About Section */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; /* Increased gap between items */
+    margin-bottom: 20px; /* Space below About section */
+}
+
+.about-text {
+    flex: 1;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+    .about-text h2 {
+        margin-bottom: 1rem;
+        color: #ff6600; /* Orange heading color */
+    }
+
+/* Card Styling */
+.card {
+    width: 250px;
+    height: 350px;
+    perspective: 1000px;
+    margin-bottom: 20px; /* Space below each card */
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px; /* Padding inside cards */
+}
+
+.card-front {
+    background: #002b36; /* Darker navy blue for card front */
+}
+
+    .card-front img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .card-front h3 {
+        margin: 0.5rem 0;
+    }
+
+.card-back {
+    background: #ff6600; /* Orange for card back */
+    color: white;
+    transform: rotateY(180deg);
+}
+
+    .card-back h3 {
+        margin-bottom: 1rem;
+    }
+
+    .card-back ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Gap between items */
+    }
+
+        .card-back ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+/* Projects Section */
+#projects h2 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 1rem;
+    color: #ff6600; /* Orange heading color */
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; /* Increased gap between projects */
+}
+
+.project {
+    width: 100%;
+    height: 250px;
+    perspective: 1000px;
+}
+
+.project-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.project:hover .project-inner {
+    transform: rotateY(180deg);
+}
+
+.project-front, .project-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px; /* Padding inside cards */
+}
+
+.project-front {
+    background: #002b36; /* Darker navy blue for project front */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .project-front .project-icon {
+        font-size: 4rem;
+        margin-bottom: 10px; /* Space between icon and text */
+    }
+
+    .project-front h3 {
+        margin: 0.5rem 0;
+    }
+
+    .project-front p {
+        font-weight: bold;
+    }
+
+.project-back {
+    background: #ff6600; /* Orange for project back */
+    color: white;
+    transform: rotateY(180deg);
+}
+
+    .project-back h3 {
+        margin-bottom: 1rem;
+    }
+
+    .project-back ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Gap between items */
+    }
+
+        .project-back ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+/* Contact Section */
+#contact h2 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 1rem;
+    color: #ff6600; /* Orange heading color */
+}
+
+#contact p {
+    text-align: center; /* Center align the paragraph */
+    margin-bottom: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center align the list */
+    margin-bottom: 1rem;
+}
+
+    #contact ul li {
+        margin-bottom: 10px; /* Space between items */
+    }
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details-toggle {
+    background: #ff6600; /* Orange button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: none;
+    margin-top: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px; /* Increased gap between icons */
+}
+
+    .social-links li a {
+        color: #ff6600; /* Orange icons */
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
+/* Footer */
+footer {
+    background: #002b36; /* Darker navy blue for footer */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* «· ’„Ì„ «·«› —«÷Ì (··‘«‘«  «·√ﬂ»— „‰ 800 »ﬂ”·) */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ff6600; /* ·Ê‰ «·‰’ «·»— ﬁ«·Ì */
+    background: linear-gradient(135deg, #001f3f 25%, #00122b 75%); /* Œ·›Ì… “—ﬁ«¡ œ«ﬂ‰… */
+    padding: 0 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* «· ’„Ì„ ··‘«‘«  «·√’€— „‰ 800 »ﬂ”· */
+@media (max-width: 800px) {
+    .about-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .about-text {
+        margin-left: 0;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+/* Qualification Section */
+#qualification {
+    margin-bottom: 20px;
+}
+
+    #qualification h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #ff6600;
+    }
+
+.qualification-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between qualifications */
+}
+
+.qualification-item {
+    background: #002b36;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .qualification-item h3 {
+        margin-bottom: 0.5rem;
+        color: #ff6600;
+    }
+
+/* Design for screens larger than 800 pixels */
+@media (min-width: 800px) {
+    .qualification-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px; /* Space between items */
+    }
+
+    .qualification-item {
+        flex: 1 1 calc(50% - 15px); /* Two items per row with space between */
+    }
+}
+
+/* Design for screens smaller than 800 pixels */
+@media (max-width: 800px) {
+    .qualification-container {
+        flex-direction: column;
+    }
+
+    .qualification-item {
+        flex: 1 1 auto;
+    }
+}
+.decorative-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em; /* Adjust the font size as needed */
+    color: #ff6600; /* Adjust the color as needed */
+    text-align: center; /* Center align the text, adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+}
