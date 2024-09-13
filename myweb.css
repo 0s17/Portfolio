@@ -5,13 +5,12 @@
     box-sizing: border-box;
 }
 
-/* Body and Fonts */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #ff6600; /* Orange text color */
-    background: linear-gradient(135deg, #001f3f 25%, #00122b 75%); /* Dark navy blue wavy background */
-    padding: 0 20px; /* Margin on left and right */
+    color: #E74C3C; /* Red text color */
+    background: linear-gradient(135deg, #2C3E50 25%, #131414 75%); /* Dark navy blue wavy background */
+    padding: 0 20px;
 }
 
 /* Header */
@@ -60,7 +59,7 @@ nav ul {
 
     .about-text h2 {
         margin-bottom: 1rem;
-        color: #ff6600; /* Orange heading color */
+        color: #E74C3C; /* Orange heading color */
     }
 
 /* Card Styling */
@@ -115,7 +114,7 @@ nav ul {
     }
 
 .card-back {
-    background: #ff6600; /* Orange for card back */
+    background: #E74C3C; /* Orange for card back */
     color: white;
     transform: rotateY(180deg);
 }
@@ -142,7 +141,7 @@ nav ul {
 #projects h2 {
     text-align: center; /* Center align the heading */
     margin-bottom: 1rem;
-    color: #ff6600; /* Orange heading color */
+    color: #E74C3C; /* Orange heading color */
 }
 
 .project-grid {
@@ -203,7 +202,7 @@ nav ul {
     }
 
 .project-back {
-    background: #ff6600; /* Orange for project back */
+    background: #E74C3C; /* Orange for project back */
     color: white;
     transform: rotateY(180deg);
 }
@@ -230,7 +229,7 @@ nav ul {
 #contact h2 {
     text-align: center; /* Center align the heading */
     margin-bottom: 1rem;
-    color: #ff6600; /* Orange heading color */
+    color: #E74C3C; /* Orange heading color */
 }
 
 #contact p {
@@ -256,7 +255,7 @@ nav ul {
 }
 
 .details-toggle {
-    background: #ff6600; /* Orange button */
+    background: #E74C3C; /* Orange button */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -277,7 +276,7 @@ nav ul {
 }
 
     .social-links li a {
-        color: #ff6600; /* Orange icons */
+        color: #E74C3C; /* Orange icons */
         font-size: 2rem;
         text-decoration: none;
     }
@@ -290,15 +289,14 @@ footer {
     text-align: center;
 }
 
-/* «· ’„Ì„ «·«› —«÷Ì (··‘«‘«  «·√ﬂ»— „‰ 800 »ﬂ”·) */
+/* ÿßŸÑÿ™ÿµŸÖŸäŸÖ ÿßŸÑÿßŸÅÿ™ÿ±ÿßÿ∂Ÿä (ŸÑŸÑÿ¥ÿßÿ¥ÿßÿ™ ÿßŸÑÿ£ŸÉÿ®ÿ± ŸÖŸÜ 800 ÿ®ŸÉÿ≥ŸÑ) */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #ff6600; /* ·Ê‰ «·‰’ «·»— ﬁ«·Ì */
-    background: linear-gradient(135deg, #001f3f 25%, #00122b 75%); /* Œ·›Ì… “—ﬁ«¡ œ«ﬂ‰… */
+    color: #E74C3C; /* Red text color */
+    background: linear-gradient(135deg, #2C3E50 25%, #131414 75%); /* Dark navy blue wavy background */
     padding: 0 20px;
 }
-
 .about-container {
     display: flex;
     justify-content: space-between;
@@ -313,7 +311,7 @@ body {
     gap: 15px;
 }
 
-/* «· ’„Ì„ ··‘«‘«  «·√’€— „‰ 800 »ﬂ”· */
+/* ÿßŸÑÿ™ÿµŸÖŸäŸÖ ŸÑŸÑÿ¥ÿßÿ¥ÿßÿ™ ÿßŸÑÿ£ÿµÿ∫ÿ± ŸÖŸÜ 800 ÿ®ŸÉÿ≥ŸÑ */
 @media (max-width: 800px) {
     .about-container {
         flex-direction: column;
@@ -340,7 +338,7 @@ body {
     #qualification h2 {
         text-align: center;
         margin-bottom: 1rem;
-        color: #ff6600;
+        color: #E74C3C;
     }
 
 .qualification-container {
@@ -359,7 +357,7 @@ body {
 
     .qualification-item h3 {
         margin-bottom: 0.5rem;
-        color: #ff6600;
+        color: #E74C3C;
     }
 
 /* Design for screens larger than 800 pixels */
@@ -385,10 +383,11 @@ body {
         flex: 1 1 auto;
     }
 }
+
 .decorative-text {
     font-family: 'Dancing Script', cursive;
     font-size: 1em; /* Adjust the font size as needed */
-    color: #ff6600; /* Adjust the color as needed */
+    color: #E74C3C; /* Adjust the color as needed */
     text-align: center; /* Center align the text, adjust as needed */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
 }
