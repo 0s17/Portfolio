@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #E74C3C; /* Red text color */
+    color: #ffaf33; /* Red text color */
     background: linear-gradient(135deg, #2C3E50 25%, #131414 75%); /* Dark navy blue wavy background */
     padding: 0 20px;
 }
@@ -59,7 +59,7 @@ nav ul {
 
     .about-text h2 {
         margin-bottom: 1rem;
-        color: #E74C3C; /* Orange heading color */
+        color: #ffaf33; /* Orange heading color */
     }
 
 /* Card Styling */
@@ -114,7 +114,7 @@ nav ul {
     }
 
 .card-back {
-    background: #E74C3C; /* Orange for card back */
+    background: #ffaf33; /* Orange for card back */
     color: white;
     transform: rotateY(180deg);
 }
@@ -141,7 +141,7 @@ nav ul {
 #projects h2 {
     text-align: center; /* Center align the heading */
     margin-bottom: 1rem;
-    color: #E74C3C; /* Orange heading color */
+    color: #ffaf33; /* Orange heading color */
 }
 
 .project-grid {
@@ -202,7 +202,7 @@ nav ul {
     }
 
 .project-back {
-    background: #E74C3C; /* Orange for project back */
+    background: #ffaf33; /* Orange for project back */
     color: white;
     transform: rotateY(180deg);
 }
@@ -229,7 +229,7 @@ nav ul {
 #contact h2 {
     text-align: center; /* Center align the heading */
     margin-bottom: 1rem;
-    color: #E74C3C; /* Orange heading color */
+    color: #ffaf33; /* Orange heading color */
 }
 
 #contact p {
@@ -255,7 +255,7 @@ nav ul {
 }
 
 .details-toggle {
-    background: #E74C3C; /* Orange button */
+    background: #ffaf33; /* Orange button */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -276,7 +276,7 @@ nav ul {
 }
 
     .social-links li a {
-        color: #E74C3C; /* Orange icons */
+        color: #ffaf33; /* Orange icons */
         font-size: 2rem;
         text-decoration: none;
     }
@@ -293,7 +293,7 @@ footer {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #E74C3C; /* Red text color */
+    color: #ffaf33; /* Red text color */
     background: linear-gradient(135deg, #2C3E50 25%, #131414 75%); /* Dark navy blue wavy background */
     padding: 0 20px;
 }
@@ -338,7 +338,7 @@ body {
     #qualification h2 {
         text-align: center;
         margin-bottom: 1rem;
-        color: #E74C3C;
+        color: #ffaf33;
     }
 
 .qualification-container {
@@ -357,7 +357,7 @@ body {
 
     .qualification-item h3 {
         margin-bottom: 0.5rem;
-        color: #E74C3C;
+        color: #ffaf33;
     }
 
 /* Design for screens larger than 800 pixels */
@@ -387,7 +387,7 @@ body {
 .decorative-text {
     font-family: 'Dancing Script', cursive;
     font-size: 1em; /* Adjust the font size as needed */
-    color: #E74C3C; /* Adjust the color as needed */
+    color: #ffaf33; /* Adjust the color as needed */
     text-align: center; /* Center align the text, adjust as needed */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
 }
