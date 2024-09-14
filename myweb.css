@@ -80,6 +80,7 @@ nav ul {
 
 .card:hover .card-inner {
     transform: rotateY(180deg);
+ 
 }
 
 .card-front, .card-back {
@@ -117,6 +118,8 @@ nav ul {
     background: #ffaf33; /* Orange for card back */
     color: white;
     transform: rotateY(180deg);
+    filter: drop-shadow(0 0 10px #fffdef);
+
 }
 
     .card-back h3 {
@@ -205,6 +208,7 @@ nav ul {
     background: #ffaf33; /* Orange for project back */
     color: white;
     transform: rotateY(180deg);
+    filter: drop-shadow(0 0 10px #fffdef);
 }
 
     .project-back h3 {
@@ -400,4 +404,20 @@ body {
     color: #ffaf33;
     text-align: center;
     justify-content: center;
+}
+    .cv button:hover {
+        filter: drop-shadow(0 0 10px #fffdef);
+        box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7);
+    }
+#contact ul li:hover {
+    filter: drop-shadow(0 0 10px #fffdef);
+    transform: scale(1.5); /* Increase the size of the element by 10% */
+}
+.project-back ul li:hover {
+    filter: drop-shadow(0 0 10px #fffdef);
+    transform: scale(1.1); /* Increase the size of the element by 10% */
+}
+.card-back ul li:hover {
+    filter: drop-shadow(0 0 10px #fffdef);
+    transform: scale(1.5); /* Increase the size of the element by 10% */
 }
