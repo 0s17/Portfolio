@@ -6,3 +6,7 @@ function toggleDetails() {
         contactInfo.style.display = 'block';
     }
 }
+function openPDF() {
+    // Replace 'pdfs/example.pdf' with the path to your PDF file
+    window.open('Profile.pdf', '_blank');
+}
