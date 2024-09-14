@@ -391,3 +391,13 @@ body {
     text-align: center; /* Center align the text, adjust as needed */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
 }
+.cv {
+    border: none;
+    background-color: transparent; /* Optional: if you want to remove the background color */
+    padding: 10px 20px; /* Optional: to adjust the padding */
+    cursor: pointer; /* Optional: to change the cursor to a pointer */
+    font-size: 40px; /* Optional: to adjust the font size */
+    color: #ffaf33;
+    text-align: center;
+    justify-content: center;
+}
