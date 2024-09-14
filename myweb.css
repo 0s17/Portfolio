@@ -24,6 +24,8 @@ header {
 
 .logo {
     font-size: 2.5rem;
+    color: aliceblue;
+    text-decoration: none;
 }
 
 nav ul {
@@ -418,6 +420,14 @@ body {
     transform: scale(1.1); /* Increase the size of the element by 10% */
 }
 .card-back ul li:hover {
+    filter: drop-shadow(0 0 10px #fffdef);
+    transform: scale(1.5); /* Increase the size of the element by 10% */
+}
+header ul li:hover {
+    filter: drop-shadow(0 0 10px #fffdef);
+    transform: scale(1.5); /* Increase the size of the element by 10% */
+}
+    .logo:hover {
     filter: drop-shadow(0 0 10px #fffdef);
     transform: scale(1.5); /* Increase the size of the element by 10% */
 }
