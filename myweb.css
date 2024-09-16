@@ -57,12 +57,46 @@ nav ul {
     flex: 1;
     margin-left: 2rem;
     text-align: left;
+
+
 }
 
     .about-text h2 {
         margin-bottom: 1rem;
         color: #ffaf33; /* Orange heading color */
     }
+.typing-effect {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffaf33;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid black; /* Simulating the cursor */
+    width: 0;
+    animation: typing 3s steps(15, end) forwards, blink-caret 0.75s step-end 3;
+}
+
+/* Typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* Blinking cursor animation */
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: black;
+    }
+}
 
 /* Card Styling */
 .card {
@@ -388,6 +422,7 @@ body {
     .qualification-item {
         flex: 1 1 auto;
     }
+
 }
 
 .decorative-text {
