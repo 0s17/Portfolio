@@ -65,6 +65,29 @@ nav ul {
         margin-bottom: 1rem;
         color: #ffaf33; /* Orange heading color */
     }
+    .about-text a {
+        position: relative; /* Ensures the ::after element is positioned relative to the link */
+        display: inline-block; /* Ensures the a tag is treated as a block-level element */
+    }
+
+        .about-text a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2.5px;
+            width: 100%;
+            height: 3px; /* Corrected the typo */
+            background-color: #ffaf33; /* The color of the underline */
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+        }
+
+        .about-text a:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
 .typing-effect {
     font-size: 2rem;
     font-weight: bold;
