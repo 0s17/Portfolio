@@ -87,7 +87,22 @@ nav ul {
             transform: scaleX(1);
             transform-origin: bottom left;
         }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Apply fadeInUp animation */
+.about-text {
+    opacity: 0; /* Start with elements hidden */
+    animation: fadeInUp 3s forwards; /* Apply animation */
+}
 .typing-effect {
     font-size: 2rem;
     font-weight: bold;
@@ -489,3 +504,4 @@ header ul li:hover {
     filter: drop-shadow(0 0 10px #fffdef);
     transform: scale(1.5); /* Increase the size of the element by 10% */
 }
+
